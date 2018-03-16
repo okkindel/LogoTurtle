@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+	<title>Turtle</title>
+</head>
+<script src="script.js" type="text/javascript"></script>
+<script src="procedures.js" type="text/javascript"></script> 
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" type="image/png" href="turtle.png"> 
+<body>
+
+	<div id="commandbox">
+
+		<div id="tools">
+			<b>commands:</b>
+			<br><br>
+			<table>
+				<tr>
+					<th>move (px)</th>
+					<th>rotate (deg)</th> 
+					<th>goto (x) (y)</th>
+				</tr>
+				<tr>
+					<th>on</th>
+					<th>off</th> 
+					<th>clear</th>
+				</tr>
+				<tr>
+					<th>color (rrggbb)</th>
+					<th>width (px)</th>
+					<th>reset</th>
+				</tr>
+			</table>
+		</div>
+
+		<div id="flags">
+			<b>flags:</b>
+			<br><br>
+			<table>
+				<tr>
+					<th>angle</th>
+					<th><span id="angle">0°</span></th>
+				</tr>
+				<tr>
+					<th>color</th>
+					<th><span id="color">#000000</span></th>
+				</tr>
+				<tr>
+					<th>width</th>
+					<th><span id="width">1px</span></th>
+				</tr>
+			</table>
+		</div>
+
+		<div id="commandline">
+			<b>enter command:</b>
+			<br><br>
+			<input name="command" id="command" autofocus/>
+			<br>
+		</div>
+	</div>
+
+	<div id="historybox">
+		<br>
+		<b>history:</b>
+		<div id="history">
+			<ul id="element">
+			</ul>
+		</div>
+	</div>
+
+	<div id="canvasbox">
+		<canvas id="canvas" width="1540" height="780">
+			Not supported :/
+		</canvas>
+	</div>
+
+	<img src="turtle.png" id="turtle"/>
+
+</body>
+</html>

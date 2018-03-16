@@ -1,0 +1,92 @@
+body {
+	background: black;
+}
+table {
+	width: 90%;
+	border: solid;
+}
+#canvasbox {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#canvas {
+	background: lightgray;
+	border-bottom: solid;
+	border-right: solid;
+}
+#historybox {
+	position: absolute;
+	height: 80%;
+	width: 15%;
+	padding-left: 5%; 
+	top: 0;
+	right: 0;	
+	background: grey;
+	color: black;	
+}
+#history {
+	margin-top: 1em;
+	height: 50%;
+	overflow-y: scroll;
+}
+#historybox ul {
+	list-style-type: none;
+}
+#historybox ul li:before {
+	content: '';
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	background-size: 10px;
+	background-image: url("turtle.png");
+	margin-right: 5px;
+}
+#commandbox {
+	width: 100%;
+	height: 21%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: gray;
+	color: black;
+	display: table;
+}
+#tools {
+	padding-left: 5%;
+	float: left;
+	width: 25%;
+	padding-top: 2%;
+}
+#flags {
+	padding-top: 2%;
+	float: left;
+	width: 10%;
+}
+#command {
+	border-style: solid;
+	border-width: 3px;
+	background: grey;
+	outline-width: 0;
+	padding: 5% 1em;
+	font-size: 2em;
+	width: 70%;
+}
+#commandline {
+	padding-top: 2%;
+	float: left;
+	width: 15%;
+	padding-left: 2%;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: grey; 
+}
+::-webkit-scrollbar-thumb {
+	background: lightgray; 
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}
