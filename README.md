@@ -11,7 +11,7 @@ Fractals: plant *deep *lenght *angle snowflake *deep *lenght
 
 You can write new in procedures.js file.
 
-## Game appearance
+## Appearance
 
 <p align="center"><img title="game screen" src="https://github.com/okkindel/LogoTurtle/blob/master/screen.png?raw=true"></p>
 
