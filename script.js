@@ -205,10 +205,10 @@ goto = function(newx, newy) {
 		if (pen_on) {
 			ctx.moveTo(posx, posy);
 		}
-		ctx.lineTo(newx, newy);
+		ctx.lineTo(newx, (canvas.height - newy));
 		ctx.stroke();
 		posx = newx;
-		posy = newy;
+		posy = (canvas.height - newy);
 		return true;
 	}
 }
